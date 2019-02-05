@@ -1,6 +1,6 @@
 # git commands
 
-###config
+### config
 git config --global user.name “name” : define name
 git config --global user.email “email@domain.com” : define email
 git config -l : show profile
@@ -17,27 +17,27 @@ protocol=https
 
 
 
-###new repo
+### new repo
 git init
 git init --bare //repo will not be a working directory, useful for centralized online repo
 
-###add files
+### add files
 git add <name>
 or
 git add . //to add all
 
-###commit
+### commit
 git commit -m "message"
 git commit --amend //adds to last commit
 
-###undo
+### undo
 git reset
 git revert
 
-###reset
+### reset
 git reset --hard //force checkout on last commit without new commit
 
-###branches
+### branches
 git branch <name> //create new branch
 git checkout <name> //switch to that branch
 git checkout -b <name> //create branch and switch
@@ -47,13 +47,13 @@ git merge <name> //merge target branch into current branch
 
 best practice: checkout on master then merge to master
 
-###status
+### status
 git status //show current files/directories that are watched by git
 git diff <file_or_folder> //show changes
 git diff master..<branch> //compare two branches
 git log //show commit logs
 
-###remote
+### remote
 git remote add origin <path_to_server> //create a remote repo
 git push origin master //push from local master to remote (origin)
 git clone <url> //copy from remote

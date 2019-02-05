@@ -6,19 +6,19 @@ To manually choose to use it or not:
 GO111MODULE=on
 GO111MODULE=off
 
-###How-to
+### How-to
 Should initialize a module, import packages, store dependencies, push/tag new release (on github or other VCS). Changing module name in go.mod file helps specify version
 
-#####init
+##### init
 go mod init <name> //create new module, often a github repo
 
-#####clean
+##### clean
 go mod tidy //remove unused dependencies
 
-#####vendor
+##### vendor
 go mod vendor //force copy dependencies from $GOPATH/pkg/mod to local /vendor
 
-#####resolve dependencies
+##### resolve dependencies
 go get
 or
 go get -u 
