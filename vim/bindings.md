@@ -6,6 +6,23 @@ i: enter insertion mode
 v: enter visual/selection mode
 ESC: back to standard mode
 
+# Windows
+ctrl+w: window mode, then arrows to change
+ctrl+w+w: toggle between windows
+:split -> horizontal split
+:vsplit -> vertical split
+:term -> will open a new window with terminal
+:Ex -> open pane with file explorer
+
+# Buffers
+:new name -> will create a new buffer
+:ls -> will list buffer handles
+:buffer open a named buffer in active window
+
+# Configuration
+:set relativenumber -> will set relative line numbers
+:set hlsearch -> highlights the matched pattern
+
 # Cursor Motion 
 h: left
 j: down
