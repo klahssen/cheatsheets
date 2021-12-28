@@ -1,4 +1,5 @@
 https://blog.codepen.io/2014/02/21/vim-key-bindings/
+https://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language
 
 # Modes
 i: enter insertion mode
